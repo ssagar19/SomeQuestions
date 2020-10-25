@@ -16,7 +16,7 @@ test('"aba " is not a palindrome', () => {
   expect(palindrome('aba ')).toBeFalsy();
 });
 
-test('"greetings" is not a palindrome', () => {
+test('"greetings!" is not a palindrome', () => {
   expect(palindrome('greetings')).toBeFalsy();
 });
 
